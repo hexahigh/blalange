@@ -1,5 +1,5 @@
 ---
-import Nav from "../components/nav2.astro";
+import Nav from "../components/nav2.svelte";
 import "@fontsource/krona-one";
 import "@fontsource/lexend-exa";
 import "@fontsource/dela-gothic-one";
@@ -29,7 +29,7 @@ const { title } = Astro.props;
     </script>
   </head>
   <body>
-    <Nav />
+    <Nav client:only />
     <slot />
   </body>
 </html>
