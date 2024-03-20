@@ -1,22 +1,24 @@
 ---
     import paypal from "../img/svg/paypal1.svg";
-  
+
     let cost = 2000;
   
-    let donations = [
-      {
-        name: "Anon",
-        amount: 7.93,
-      }
-    ]
-  
-    let donated = 0;
-    for (let i = 0; i < donations.length; i++) {
-      donated += donations[i].amount;
+  let donations = [
+    {
+      name: "Anon",
+      amount: 7.93,
     }
-  
-    let percentage = (donated / cost) * 100;
-  
+  ]
+
+  let donated = 0;
+  for (let i = 0; i < donations.length; i++) {
+    donated += donations[i].amount;
+  }
+
+  let percentage = (donated / cost) * 100;
+---
+
+<script>
     async function donate(service) {
       if (service == "paypal") {
         window.open("https://www.paypal.com/donate/?hosted_button_id=N2US62KK87SB4");
@@ -26,7 +28,7 @@
       }
     }
 
----
+</script>
   
   <div class="text-center max-w-4xl mx-auto mt-10 mb-4 border-b-2 border-dashed">
     <h3 class="text-3xl font-bold mb-4">Doner</h3>
@@ -40,7 +42,7 @@
     <div class="bg-gray-200 rounded-full dark:bg-gray-700">
       <div
         class="bg-blue-600 text-xs font-medium text-black text-center p-0.5 leading-none rounded-full"
-        style="width: {percentage}%"
+        style={"width: " + {percentage} + "%"}
       >
         {donated}/{cost}
       </div>

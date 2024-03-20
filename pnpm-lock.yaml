@@ -11,6 +11,21 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
     version: 5.1.0(astro@4.5.7)(tailwindcss@3.4.1)
+  '@fontsource/dela-gothic-one':
+    specifier: ^5.0.18
+    version: 5.0.18
+  '@fontsource/krona-one':
+    specifier: ^5.0.12
+    version: 5.0.12
+  '@fontsource/lexend-exa':
+    specifier: ^5.0.19
+    version: 5.0.19
+  '@fontsource/material-icons':
+    specifier: ^5.0.16
+    version: 5.0.16
+  '@fontsource/roboto-condensed':
+    specifier: ^5.0.15
+    version: 5.0.15
   astro:
     specifier: ^4.5.7
     version: 4.5.7
@@ -757,6 +772,26 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource/dela-gothic-one@5.0.18:
+    resolution: {integrity: sha512-gyC+WAHiXV4nMB3SgU4sroRp2E8TKq080dJsltcLoP5eqNxJcKYlGSMW99P0t9G6ORC0sgKn8n3NutgjkMsGSQ==}
+    dev: false
+
+  /@fontsource/krona-one@5.0.12:
+    resolution: {integrity: sha512-RqhZ0c2iDuY39zF7lR5yPq82hvgTzEvkZBtu6nSOy1GRKhv5WEAIyfRvTITeQg2VuMK66A8N1uDVYifyPvA8ZA==}
+    dev: false
+
+  /@fontsource/lexend-exa@5.0.19:
+    resolution: {integrity: sha512-NWGA83T3mViektgvHrmlhCgifMEZKynHGX1tzoHz2bKGfTu5frV6gOSgEtKxNsXEisTs2NJh35FWI6wudtIKrw==}
+    dev: false
+
+  /@fontsource/material-icons@5.0.16:
+    resolution: {integrity: sha512-QjlHDR78ojpZfHEHJE0ltDYwyX0pWT6iMS2I9e/bJenVSktFcM+iyCHwjKmA+SDaLf5ASmx1QZNuNT4DNmsrHg==}
+    dev: false
+
+  /@fontsource/roboto-condensed@5.0.15:
+    resolution: {integrity: sha512-0AFvcI/8JQ5+FZE12hdaE1W/1ooJUzd5XP7jD74+SP+PArsswJ+6OV/oKTasgeQeZlvGrcD3chO6yr5K4JGwzA==}
+    dev: false
 
   /@isaacs/cliui@8.0.2:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
